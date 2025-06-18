@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  padding: 20px;
+  width: 500px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.trigger-1{
+  background-color: #196bd6;
   color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-left:420px;
+}
+h1 {
+  font-size: 20px;
+  margin-right:430px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.completed {
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.3);
+  background-color: #eaffea;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.box {
+  padding: 50px;
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 25px auto;
+  border-radius: 10px;
+  font-size: 12px;
 }
+
+/* Success style */
+.box-success {
+  background-color: #d4edda;
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.3);
+  color: #155724;
+}
+
+/* Danger/Error style */
+.box-danger {
+  background-color: #f8d7da;
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.5);
+  color: #721c24;
+}
+
+/* Warning style */
+.box-warning {
+  background-color: #fff3cd;
+  box-shadow: 0 4px 8px rgba(255, 193, 7, 0.5);
+  color: #856404;
+}
+
+
+.trigger{
+  background-color: #196bd6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 12px;
+  
+  /* Center it */
+  display: block;
+  margin: 0 auto;
+}
+
+

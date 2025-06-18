@@ -1,0 +1,22 @@
+.task-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 6px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.task-list li button {
+  background-color: #d61928;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
